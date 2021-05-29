@@ -7,3 +7,11 @@ $fifth-color: #fff;
 .mango {
   color: red;
 }
+
+.odd_background {
+  background-color: $primary-color;
+}
+
+.even_background {
+  background-color: $secondary-color;
+}
