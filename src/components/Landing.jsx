@@ -9,10 +9,18 @@ function Landing() {
   return (
     <>
       <div className={`container ${styles.mango}`}>
-        <SectionOne />
-        <SectionTwo />
-        <SectionThree />
-        <SectionFour />
+        <div className="vh-100">
+          <SectionOne />
+        </div>
+        <div className="vh-100">
+          <SectionTwo />
+        </div>
+        <div className="vh-100">
+          <SectionThree />
+        </div>
+        <div className="vh-100">
+          <SectionFour />
+        </div>
       </div>
     </>
   );
