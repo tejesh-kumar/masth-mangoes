@@ -1,13 +1,8 @@
-import Landing from './landing';
+import Landing from './components/Landing';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <h1 className="text-center text-success">Masth Mangoes</h1>
-      <Landing />
-    </div>
-  );
+  return <Landing />;
 }
 
 export default App;
