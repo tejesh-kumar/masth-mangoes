@@ -8,6 +8,14 @@ $fifth-color: #fff;
   color: red;
 }
 
+.third_color {
+  color: $third-color;
+}
+
+.fourth_color {
+  color: $fourth-color;
+}
+
 .odd_background {
   background-color: $primary-color;
 }

@@ -9,16 +9,16 @@ function Landing() {
   return (
     <>
       <div className={`${styles.mango}`}>
-        <div className={`vh-100 ${styles.odd_background}`}>
+        <div className={`vh-100 pt-4 ${styles.odd_background}`}>
           <SectionOne />
         </div>
-        <div className={`vh-100 ${styles.even_background}`}>
+        <div className={`vh-100 pt-4 ${styles.even_background}`}>
           <SectionTwo />
         </div>
-        <div className={`vh-100 ${styles.odd_background}`}>
+        <div className={`vh-100 pt-4 ${styles.odd_background}`}>
           <SectionThree />
         </div>
-        <div className={`vh-100 ${styles.even_background}`}>
+        <div className={`vh-100 pt-4 ${styles.even_background}`}>
           <SectionFour />
         </div>
       </div>
